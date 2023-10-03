@@ -22,9 +22,9 @@ public class Pais {
 
         Pais max = null;
         int c_max = 0;
-        int c = 0;
 
         for (var pais : paises) {
+            int c = 0;
             for (var paistemp : paises) {
                 if (pais == paistemp) {
                     c++;

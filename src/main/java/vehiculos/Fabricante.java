@@ -32,9 +32,9 @@ public class Fabricante {
     public static Fabricante fabricaMayorVentas() {
         Fabricante max = null;
         int c_max = 0;
-        int c = 0;
 
         for (var fabrica : fabricas) {
+            int c = 0;
             for (var fabricatemp : fabricas) {
                 if (fabrica == fabricatemp) {
                     c++;
